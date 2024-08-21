@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tag biblioteca</title>
+    <link rel="shortcut icon" href="icons8-biblioteca-png.png" type="image/x-icon">
+    <style>
+        .classe{
+           background-color: rgb(222, 140, 248);
+        }
+    </style>
+    <style>
+        body{
+            
+            background-image: url("OIP.jpg");
+            background-size: 100%;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        h1{
+            text-align: center;
+        margin-bottom: 100px;
+        }
+        form{
+            background-color: beige;
+            width: 400px;
+            border: 2px solid;
+            border-radius: 5px;
+            padding: 20px;
+            margin: auto;
+        }
+        label{
+            margin-bottom: 50px;
+            display: block;
+        }
+        input{
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 2px solid;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        input[type="submit"]{
+            background-color: hsl(271, 80%, 80%);
+            color: rgb(253, 254, 254);
+            padding: 10px 20px;
+        }
+
+        
+    </style>
+</head>
+<body>
+    
+    <h1>BIBLIOTECA </h1>
+    <!--
+    <img src="OIP.jpg" alt="Imagem Livraria" width="450px">
+    -->
+
+    <form action="">
+        📚  <label for="nome" class="classe">Nome do Usuário:</label>
+        <br>
+        <input type="text"  id="nome do usuario">
+        <br>
+        <br>
+        <label for="nome" class="classe">Matrícula:</label>
+        <br>
+        <input type="text" id="matricula">
+        <br>
+        <br>
+        <label for="nome" class="classe">CPF:</label>
+        <br>
+        <input type="text" id="CPF">
+        <br>
+        <br>
+        📚<label for="nome" class="classe">ISBN do Livro:</label>
+        <br>
+        <input type="text" id="codigo">
+        <br>
+        <br>
+        📚 <label for="nome">Título do Livro:</label>
+        <br>
+        <input type="text" id="Titulo livro">
+        <br>
+        <br>
+        <label for="nome">Autor do Livro:</label>
+        <br>
+        <input type="text" id="autor do livro">
+        <br>
+        <br>
+        <label for="nome"> Data de Empréstimo</label>
+        <br>
+        <input type="date" >
+        <br>
+        <label for="nome"> Data de Devolução</label>
+        <br>
+        <input type="date" >
+        <br>
+        <br>
+        <label for="nome">Dias de Empréstimo</label>
+        <br>
+        <input type="text" id="Empréstimo">
+        <br>
+        <br>
+        <br>
+        <input type="submit" class="classe" value="Emprestar">
+
+    </form>
+</body>
+</html>
